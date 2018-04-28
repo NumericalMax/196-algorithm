@@ -19,7 +19,7 @@ n = 19 // no palindrome, iteration = 0
 n = 19 + 91 = 110 // no palindrome, iteration = 1
 n = 110 + 11 = 121 // palindrome, iteration = 2
 ```
-Note, that n is of type int. This can result in exceeding the allocated storage size for larger n or higher iterations. To prevent you can set the datatype to long or a much larger datatype.
+Note, that n is of type int. This can result in exceeding the allocated storage size for larger n or higher iterations. To prevent, you can set the datatype to long or a much larger datatype.
 
 ## Outcome
 
