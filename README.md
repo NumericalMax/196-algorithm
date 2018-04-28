@@ -1,5 +1,5 @@
 # 196-algorithm
-Implementation of the 196-algorithm to find palindromes in a predetermined sequence of instructions.
+Implementation of the 196-algorithm to find palindromes in a number sequence.
 
 Inspired by https://www.youtube.com/watch?v=bN8PE3eljdA&t=374s
 
@@ -13,7 +13,7 @@ g++ main.cpp -o main
 ./main
 ```
 ## Approach
-Given a number n we iteratively reassign n as the sum of previous n and the reverse of previous n until n is a palindrome.
+Given a number n we iteratively reassign to n the sum of n and the reverse of n until n is a palindrome.
 
 Example Given:
 ```
@@ -21,6 +21,7 @@ n = 19 // no palindrome, iteration = 0
 n = 19 + 91 = 110 // no palindrome, iteration = 1
 n = 110 + 11 = 121 // palindrome, iteration = 2
 ```
+Note, that n is of type int. This can result in exceeding the allocated storage size for larger n or higher iterations. To prevent you can set the datatype to long or a much larger datatype.
 
 ## Outcome
 
