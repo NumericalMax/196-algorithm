@@ -1,5 +1,5 @@
 # 196-algorithm
-Implementation of the 196-algorithm to find palindromes in a number sequence.
+Implementation of the 196-algorithm to find palindromes in an iteratively computed number sequence.
 
 Inspired by https://www.youtube.com/watch?v=bN8PE3eljdA&t=374s
 
