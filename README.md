@@ -12,7 +12,7 @@ g++ main.cpp -o main
 ```
 ## Approach
 Given a number n we iteratively reassign to n the sum of n and the reverse of n until n is a palindrome.
-
+ 
 Example Given:
 ```
 n = 19 // no palindrome, iteration = 0
